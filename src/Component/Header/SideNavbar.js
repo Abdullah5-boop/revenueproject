@@ -19,7 +19,7 @@ const SideNavbar = () => {
                                 <Link className='text-decoration-none text-light mx-4' to='/Table1'>Revenue</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className='text-decoration-none text-light mx-4' to='/input'>SrcbyRange</Link>
+                                <Link className='text-decoration-none text-light mx-4' to='/input1'>SrcbyRange</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className='text-decoration-none text-light mx-4' to='/mincap'>Min capacity</Link>

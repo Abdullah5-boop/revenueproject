@@ -16,7 +16,7 @@ const SrcByRange = () => {
         console.log( Year1,Year2, semster, school)
         const user = { Year1,Year2, semster, school }
 
-        fetch("http://localhost:5000/input",
+        fetch("http://localhost:5000/input1",
             {
                 headers: { 'Content-Type': 'application/json' },
                 method: "POST",
@@ -54,15 +54,15 @@ const SrcByRange = () => {
             <div className='container'>
                 <form onSubmit={handleSubmit} className='d-flex justify-content-around align-items-center'>
                 <div className="form-group">
-                        <label>School Title</label>
-                        <input onBlur={Handleyear1} type="text" className="form-control" id="exampleInputPassword1" placeholder="year" />
+                       
+                        <input onBlur={Handleyear1} type="text" className="form-control" id="exampleInputPassword1" placeholder="start year" />
                     </div>
                 <div className="form-group">
-                        <label>School Title</label>
-                        <input onBlur={Handleyear2} type="text" className="form-control" id="exampleInputPassword1" placeholder="year" />
+                        
+                        <input onBlur={Handleyear2} type="text" className="form-control" id="exampleInputPassword1" placeholder="end-year" />
                     </div>
                     <div className="form-group">
-                        <label>From</label>
+                   
                         <input onBlur={HandleSemster} type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" semester " />
                     </div>
                     <div className="form-group">

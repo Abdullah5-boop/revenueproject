@@ -2,6 +2,7 @@ import React from 'react';
 
 const ChartTable = (props) => {
     const Data = props.data
+    console.log(Data);
     return (
         <div>
             <div className='container'>
@@ -20,7 +21,7 @@ const ChartTable = (props) => {
                     </thead>
                     <tbody>
                         {Data.map(data => <tr>
-                            <td>{data.smstrandyr}</td>
+                            <td>{data.year} {data.semester}</td>
                             <td>{data.SLASS}</td>
                             <td>{data.SELS}</td>
                             <td>{data.SBE}</td>

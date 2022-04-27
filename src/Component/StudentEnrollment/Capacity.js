@@ -40,10 +40,10 @@ const Capacity = () => {
 
 console.log(user)
 
-const Seebrealdown =()=>{
-    navigate('/mincaptable')
+// const Seebrealdown =()=>{
+//     navigate('/mincaptable')
 
-}
+// }
 
 
 

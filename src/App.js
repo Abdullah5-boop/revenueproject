@@ -23,7 +23,7 @@ function App() {
         <Routes>
           <Route path='/Table1' element={<Tables1></Tables1>}></Route>
           <Route path='/' element={<HOme></HOme>}></Route>
-          <Route path='/input'element={<SrcByRange></SrcByRange>}></Route>
+          <Route path='/input1'element={<SrcByRange></SrcByRange>}></Route>
           <Route path='/srcview'element={<Srcview></Srcview>}></Route>
           <Route path='/mincap'element={<Capacity></Capacity>}></Route>
           <Route path='/unused'element={<Unusedchart></Unusedchart>}></Route>
